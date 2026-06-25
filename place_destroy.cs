@@ -28,7 +28,6 @@ public class place_destroy : MonoBehaviour
     public Dictionary<Vector2Int, GameObject> tileObjects = new Dictionary<Vector2Int, GameObject>();
     void Start()
     {
-        Debug.Log("can u see this");
         cam = Camera.main;
     }
     void Update()
